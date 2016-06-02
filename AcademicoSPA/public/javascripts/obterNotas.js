@@ -6,6 +6,6 @@ function ObterNotas($scope, $http) {
         success(function(data) {
             $scope.alunoNotas = data;
         }).error(function(data, status, headers, config) {
-			alert( "failure");
+			alert( "Servidor fora.");
 		});
 }
